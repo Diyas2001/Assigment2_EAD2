@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: cadetblue;
+    padding: 30px;
+}
+
+header ul {
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: red;
+}
+
+form {
+    padding: 10px;
+    text-align: center;
+}
+
+form > * {
+    margin-top: 10px;
+}
+
+.output {
+    text-align: left;
+}
